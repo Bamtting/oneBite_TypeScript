@@ -27,8 +27,8 @@
 ```
 {
 "compilerOptions": {
-  "target": "ES5"
+  "target": "ESNext" // 자바스크립트 최신버전
 },
-  "include": ["src"] // 해당 파일안에 있는 타입스크립트를 컴파일한다.
+  "include": ["src"] // 컴파일할 파일의 경로를 설정한다.
 }
 ```
